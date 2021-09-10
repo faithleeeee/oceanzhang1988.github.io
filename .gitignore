@@ -99,6 +99,6 @@ dist
 
 # DynamoDB Local files
 .dynamodb/
-
+.jekyll-cache/
 # TernJS port file
 .tern-port
