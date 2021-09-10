@@ -1,1 +1,1 @@
-## Treasure App Official Websote
+## Treasure App Official Website
