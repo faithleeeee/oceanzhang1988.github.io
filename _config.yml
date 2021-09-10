@@ -1,5 +1,3 @@
-<<<<<<< HEAD
----
 title: Siteleaf
 timezone: America/New_York
 collections:
@@ -108,6 +106,3 @@ scripts: |-
       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
-=======
-theme: jekyll-theme-architect
->>>>>>> f325663887eba15227b94f059f2eea1c7848e68c
