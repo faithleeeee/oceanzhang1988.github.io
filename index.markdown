@@ -6,7 +6,7 @@ subtitle: |-
   Treasure is a utility app offering a digital collection service that helps content creators digitalize, manage, and share highlight moments with their fans.
 
   <a href="https://player.vimeo.com/video/169542999" id="videoOpen" class="link white"><svg class="icon icon--play white" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve"><g><path d="M21.3,12c0,5.1-4.2,9.3-9.3,9.3S2.7,17.1,2.7,12S6.9,2.7,12,2.7S21.3,6.9,21.3,12z M20,12c0-4.4-3.6-8-8-8s-8,3.6-8,8 s3.6,8,8,8S20,16.4,20,12z M9.3,8l7.3,4l-7.3,4V8z M10.7,13.7l3.2-1.7l-3.2-1.7V13.7z"/></g></svg>Watch the intro</a>
-color: yellow
+color: blue
 button:
   title: Get started
   url: https://manage.siteleaf.com/signup
@@ -18,63 +18,42 @@ features:
   width: wide
   button: true
   subsections:
-  - title: Develop with existing tools
-    body: Code offline with Jekyll, sync with GitHub
-    image: "/uploads/home__intro--raccoon.svg"
-  - title: Edit in the cloud
-    body: Easy for non-technical clients, writers, and producers
-    image: "/uploads/home__intro--fox.svg"
-  - title: Free your content
-    body: Access by [API](https://learn.siteleaf.com/api/) or generate static sites
-      to S3, GitHub, FTP
-    image: "/uploads/home__intro--owl.svg"
-- title: Content management for the whole team
-  handle: manage
+  - title: For Content Creators
+    body: Interact with fans; 
+          monetization 
+    image: "/uploads/test1.svg"
+  - title: For Users
+    body: Collect digital collectible from favorite content creators
+    image: "/uploads/test2.svg"
+  - title: Amazing 3D world
+    body: Surreal 3D world exploration
+    image: "/uploads/test3.svg"
+- title: Usage Scenarios
+  handle: usage
   width: wide
   color: blue
   subsections:
-  - title: Collaborate
-    handle: collaborate
+  - title: Create own Digital Collectibles
+    handle: create
     body: Invite your client or team to create and edit content. Set them as Admin,
       Publisher, or Writer.
     image: "/uploads/home__manage--collaborate.jpg"
-  - title: Preview before you publish
-    handle: preview
+  - title: Share with Friends
+    handle: share
     body: Preview changes before they go live. Then publish with one click whenever
       you’re ready.
     image: "/uploads/home__manage--preview.jpg"
-  - title: Smart text editor
-    handle: edit
+  - title: Explore in 3D world
+    handle: 
     body: Choose between a visual editor or just plain Markdown. Drag and drop images
       or even entire text files.
     image: "/uploads/home__manage--edit.jpg"
-  - title: Powerful content
-    handle: customize
+  - title: Digital collectible Data Page
+    handle: digital
     body: Customize your site with document collections, advanced metadata, and custom
       permalinks.
     image: "/uploads/home__manage--customize.jpg"
-- title: Develop with tools you already love
-  handle: develop
-  background: lightest-gray
-  width: wide
-  subsections:
-  - title: Built on open source
-    body: |-
-      Siteleaf is compatible with [Jekyll](http://jekyllrb.com/), the static site generator for over half a million websites running on GitHub Pages.
-
-      Benefit from a large open source community. Use any existing Jekyll theme, or write your own using [Liquid](https://shopify.github.io/liquid/), [Sass](http://sass-lang.com/), and [CoffeeScript](http://coffeescript.org/). Develop locally and even offline.
-    image: "/uploads/home__develop--jekyll.jpg"
-    logos:
-      title: open source
-      image: "/uploads/logos--open-source.svg"
-    color: red
-  - title: GitHub integration
-    body: |-
-      No more accidental overwrites or deletes. Any change made in Siteleaf can be synced to [GitHub](https://github.com/), where you can see a log of edits and roll back to any state, giving you a time machine for your content.
-
-      As you develop your theme, Siteleaf can also automatically update to reflect your GitHub commits. Fits right into your existing workflow.
-    image: "/uploads/home__develop--github.jpg"
-    color: purple
+    
 - title: Free your content
   handle: free
   background: darkest-gray
@@ -109,12 +88,13 @@ features:
   width: wide
   logos:
     title: companies
-    image: "/uploads/logos--companies.svg"
+    image: "/uploads/logo1.svg"
+    image: "/uploads/logo2.svg"
 - title: Create something great
   handle: outro
   width: wide
   button: true
-  body: Free for developers and open source projects.
+  body: Free for content creators and fans
 image: "/assets/og-image.png"
 layout: index
 ---
