@@ -262,11 +262,11 @@ h6 {
   }
 }
 .header__link--button {
-  background: $color--leaf;
+  background: $color--blue;
   color: $color--white;
   margin-left: 0.5em;
   &:hover {
-    background: darken($color--leaf, $darken--button);
+    background: darken($color--blue, $darken--button);
   }
   @include max-width($max-width--sm) {
     background: inherit;
@@ -404,10 +404,10 @@ h6 {
 }
 .featureWrap.bg--custom {
   padding-top: 0;
-  background: linear-gradient(180deg, $color--yellow 11.5rem, $color--lightest-gray 11.5rem, $color--lightest-gray);
+  background: linear-gradient(180deg, $color--light-gray 11.5rem, $color--lightest-gray 11.5rem, $color--lightest-gray);
   @include max-width($max-width--lg) {
     padding-top: 0;
-    background: linear-gradient(180deg, $color--yellow 8rem, $color--lightest-gray 8rem, $color--lightest-gray);
+    background: linear-gradient(180deg, $color--light-gray 8rem, $color--lightest-gray 8rem, $color--lightest-gray);
   }
   @include max-width($max-width--sm) {
     padding-top: $v*2;
@@ -1219,7 +1219,15 @@ h6 {
 }
 .bg--green {
   background: $color--green;
-  color: $color--white;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color--white;
+  }
+  // color: $color--white;
 }
 .bg--yellow {
   background: $color--yellow;
@@ -1234,7 +1242,15 @@ h6 {
 }
 .bg--red {
   background: $color--red;
-  color: $color--white;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color--white;
+  }
+  // color: $color--white;
 }
 .bg--purple {
   background: $color--purple;
@@ -1258,6 +1274,9 @@ h6 {
 }
 .bg--light-gray {
   background: $color--light-gray;
+  a {
+    color: #191919;
+  }
 }
 .bg--lighter-gray {
   background: $color--lighter-gray;

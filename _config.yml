@@ -74,8 +74,8 @@ logo: "/assets/logo.svg"
 future: true
 header_nav:
   Blog: "/blog/"
-  Gallery: "/gallery/"
-  Plans: "/plans/"
+  Showcase: "/gallery/"
+  Community: "/plans/"
   Learn: https://google.com
   Log in: https://google.com
 footer_nav:
