@@ -75,9 +75,9 @@ future: true
 header_nav:
   Blog: "/blog/"
   Showcase: "/gallery/"
-  Community: "/plans/"
-  Learn: https://google.com
-  Log in: https://google.com
+  Community: "#"
+  Learn: "#"
+  Log in: "#"
 footer_nav:
   Features: "/features/"
   Press: https://google.com

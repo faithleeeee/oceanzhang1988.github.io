@@ -1,9 +1,9 @@
 ---
 title: Treasure - A digital collection service app
 position: 0
-header_title: Built for fans, Loved by content creators
+header_title: Built for you, Loved by content creators
 subtitle: |-
-  Treasure is a utility app offering a digital collection service that helps content creators digitalize, manage, and share highlight moments with their fans.
+  Treasure is a utility app offering a digital collection service that helps content creators digitalize, manage, and share highlight moments with fans and users.
 
   <a href="https://player.vimeo.com/video/169542999" id="videoOpen" class="link white"><svg class="icon icon--play white" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve"><g><path d="M21.3,12c0,5.1-4.2,9.3-9.3,9.3S2.7,17.1,2.7,12S6.9,2.7,12,2.7S21.3,6.9,21.3,12z M20,12c0-4.4-3.6-8-8-8s-8,3.6-8,8 s3.6,8,8,8S20,16.4,20,12z M9.3,8l7.3,4l-7.3,4V8z M10.7,13.7l3.2-1.7l-3.2-1.7V13.7z"/></g></svg>Watch the intro</a> 
 color: light-gray
@@ -27,68 +27,85 @@ features:
   - title: Infinite Stories 
     body: Open explorations within the 3D world of a digital collectible
     image: "/uploads/Discovery.svg"
-- title: Usage Scenarios
-  handle: usage
+- title: World of Digital Collectibles
+  handle: manage
   width: wide
   color: blue
   subsections:
-  - title: Create own Digital Collectibles
+  - title: Create Your Digital Collectibles
     handle: create
-    body: Invite your client or team to create and edit content. Set them as Admin,
-      Publisher, or Writer.
-    image: "/uploads/home__manage--collaborate.jpg"
-  - title: Share with Friends
+    body: A new way to upload the contents through chatting with your virtual assistant.
+    image: "/uploads/mockapp1.webp"
+  - title: Share With People
     handle: share
-    body: Preview changes before they go live. Then publish with one click whenever
-      you’re ready.
-    image: "/uploads/home__manage--preview.jpg"
-  - title: Explore in 3D world
+    body: |-
+      A simple link will pave the road between you and your audience. Send a simple post on social media is enough.
+    image: "/uploads/mockapp2.webp"
+  - title: Explore in 3D World
     handle: 
-    body: Choose between a visual editor or just plain Markdown. Drag and drop images
-      or even entire text files.
-    image: "/uploads/home__manage--edit.jpg"
-  - title: Digital collectible Data Page
+    body: |-
+      Each exploration, you will have different conversations to unlock the resources in a collectible world.
+    image: "/uploads/mockapp3.webp"
+  - title: Manage Your Data
     handle: digital
-    body: Customize your site with document collections, advanced metadata, and custom
-      permalinks.
-    image: "/uploads/home__manage--customize.jpg"
-    
-- title: Free your content
+    body: See all your data in a single click. A dashboard is all you need to know everything.
+    image: "/uploads/mockapp4.webp"
+
+- title: A New Experience Across Devices
   handle: free
   background: darkest-gray
   width: wide
-  image: "/uploads/home__free.svg"
+  image: "/uploads/HillsandMountains-day.svg"
   subsections:
-  - title: Publish anywhere
-    body: Generate static sites to [Amazon S3](https://aws.amazon.com/s3/), [GitHub
-      Pages](https://pages.github.com/), [Rackspace](https://www.rackspace.com/),
-      or FTP using your own domain name.
-  - title: Import and export
-    body: Easily move your content into or out of Siteleaf. [Import](http://import.jekyllrb.com/)
-      from WordPress, Drupal, Tumblr, Ghost, and more.
-  - title: API for your content
-    body: Access [your data](https://learn.siteleaf.com/api/) and integrate into other
-      websites and apps. Automate tasks with [Zapier](https://zapier.com/zapbook/siteleaf/).
-- title: Launch better sites
-  handle: launch
-  background: green
-  width: narrow
-  unpad: bottom
-  image: "/uploads/home__launch.svg"
-  body: |-
-    We believe that content management shouldn’t be hard. That you should be able to host your website wherever you want. That websites should be able to outlive their CMS. Our tools should be simple, but never dumbed down.
+  - title: Unlock Secrets in a Collectible
+    body:  Imagination has no boundary, try as many times as you can [Some Link](https://google.com).
+  - title: Open Conversation, Open Script
+    body: Imagination has no boundary, try as many times as you can [Some Link](https://google.com).
+  - title: Trade Your Collectible with Others
+    body: Imagination has no boundary, try as many times as you can [Some Link](https://google.com).
+- title: Download the App Today
+  handle: develop
+  background: lightest-gray
+  width: wide
+  subsections:
+  - title: Experience with IPhone
+    body: |-
+      A smooth experience [Treasure](http://jekyllrb.com/), lalalalla.
+    image: "/uploads/IOSmock.webp"
+    logos:
+      title: open source
+      image: "/uploads/download_ios.svg"
+    color: red
+  - title: Experience with Android
+    body: |-
+       A smooth experience [Treasure](http://jekyllrb.com/), lalalalla.
+    image: "/uploads/AndroidMock.webp"
+    logos:
+      title: open source
+      image: "/uploads/google-play-badge.png"
+    color: purple
 
-    Static sites are faster, more secure, and keep visitors happy. And speed matters: According to Google, **nearly half of all visitors will leave a mobile site if the pages don’t load within 3 seconds**.
+# - title: Launch better sites
+#   handle: launch
+#   background: green
+#   width: narrow
+#   unpad: bottom
+#   image: "/uploads/home__launch.svg"
+#   body: |-
+#     We believe that content management shouldn’t be hard. That you should be able to host your website wherever you want. That websites should be able to outlive their CMS. Our tools should be simple, but never dumbed down.
 
-    Best of all, unlike legacy CMSs such as WordPress and Drupal, your website’s entire source code and content are completely portable. Never be locked into a particular service again. An Open Web is a better web.
-- title: Join thousands of happy customers
+#     Static sites are faster, more secure, and keep visitors happy. And speed matters: According to Google, **nearly half of all visitors will leave a mobile site if the pages don’t load within 3 seconds**.
+
+#     Best of all, unlike legacy CMSs such as WordPress and Drupal, your website’s entire source code and content are completely portable. Never be locked into a particular service again. An Open Web is a better web.
+
+- title: Join thousands of happy content creators
   handle: love
   background: lightest-gray
   width: wide
   logos:
     title: companies
-    image: "/uploads/logo1.svg"
-    image: "/uploads/logo2.svg"
+    image: "/uploads/social-media.png"
+    #image: "/uploads/logo2.svg"
 - title: Create something great
   handle: outro
   width: wide

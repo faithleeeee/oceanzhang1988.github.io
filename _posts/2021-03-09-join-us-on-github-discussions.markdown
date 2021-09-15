@@ -9,7 +9,7 @@ button:
   url: https://community.siteleaf.com
 ---
 
-The [Siteleaf Community](https://community.siteleaf.com) now has a new home on GitHub Discussions where you can get help, vote on new features, and share what you're working on!
+The [Treasure Community](https://google.com) now has a new home on GitHub Discussions where you can get help, vote on new features, and share what you're working on!
 
 To get started we created topics for:
 
@@ -33,4 +33,4 @@ We'll be rewarding the most helpful community members with exclusive perks:
 
 GitHub will automatically recognize community members who contribute the most comments marked as answers within the past 30 days in the Community Support section. If you see your name in the leaderboard, we'll be in touch to give you some exclusive perks as a thank you.
 
-Join us at: **<https://community.siteleaf.com>** &rarr;
+Join us at: **<https://community.google.com>** &rarr;

@@ -1,7 +1,7 @@
 ---
-title: Able Parris
-position: 65
-image: "/uploads/gallery__ableparris.jpg"
-link: http://www.ableparris.com/
+title: Test Case 1
+position: 1
+image: "/uploads/gallery/bekind.jpg"
+link: http://www.google.com
 ---
 

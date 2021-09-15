@@ -1,7 +1,7 @@
 ---
-title: Adam Feuerman
-position: 64
-image: "/uploads/gallery__adamfeuerman.jpg"
-link: http://www.adamfeuerman.com/
+title: Test Case 2
+position: 2
+image: "/uploads/gallery/WELCOME_CONF.jpg"
+link: http://www.google.com
 ---
 
