@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Making your first Jekyll theme: Part 2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In ‘Making your first Jekyll theme: Part 2’ David Darnes gives a thorough step-by-step guide to developing your own Jekyll theme gem." />
+<meta property="og:description" content="In ‘Making your first Jekyll theme: Part 2’ David Darnes gives a thorough step-by-step guide to developing your own Jekyll theme gem." />
+<link rel="canonical" href="https://www.google.com/blog/making-your-first-jekyll-theme-part-2-2/" />
+<meta property="og:url" content="https://www.google.com/blog/making-your-first-jekyll-theme-part-2-2/" />
+<meta property="og:site_name" content="Treasure" />
+<meta property="og:image" content="https://www.google.com/uploads/Making%20theme%20part%202.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-01-16T10:10:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.google.com/uploads/Making%20theme%20part%202.png" />
+<meta property="twitter:title" content="Making your first Jekyll theme: Part 2" />
+<meta name="twitter:site" content="@siteleaf" />
+<script type="application/ld+json">
+{"image":"https://www.google.com/uploads/Making%20theme%20part%202.png","headline":"Making your first Jekyll theme: Part 2","dateModified":"2018-01-16T10:10:00-05:00","datePublished":"2018-01-16T10:10:00-05:00","url":"https://www.google.com/blog/making-your-first-jekyll-theme-part-2-2/","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.google.com/blog/making-your-first-jekyll-theme-part-2-2/"},"description":"In ‘Making your first Jekyll theme: Part 2’ David Darnes gives a thorough step-by-step guide to developing your own Jekyll theme gem.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.google.com/assets/logo.svg"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <title>Making your first Jekyll theme: Part 2 - Siteleaf</title>
+    
+    <link rel="stylesheet" href="/styles/all.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" title="Siteleaf: Blog (RSS)" href="https://www.google.com/feed.xml" />
+    <link rel="alternate" type="application/json" title="Siteleaf: Blog (JSON)" href="https://www.google.com/feed.json" />
+  </head>
+  <body class="post">
+    <div class="wrap">
+      
+
+  <!-- blog permalink, inherit from first tag -->
+  
+  
+
+<div class="headerWrap bg--blue">
+  <header class="header">
+    <ul class="header__items">
+      
+      <li class="header__item">
+        <a href="/blog/" class="header__link">Blog</a>
+      </li>
+      
+      <li class="header__item">
+        <a href="/gallery/" class="header__link">Gallery</a>
+      </li>
+      
+      <li class="header__item">
+        <a href="/plans/" class="header__link">Plans</a>
+      </li>
+      
+      <li class="header__item">
+        <a href="https://google.com" class="header__link">Learn</a>
+      </li>
+      
+      <li class="header__item">
+        <a href="https://google.com" class="header__link">Log in</a>
+      </li>
+      
+      <li class="header__item">
+        <a href="https://manage.siteleaf.com/signup" class="header__link header__link--button">Sign up</a>
+      </li>
+      <li class="header__item header__item--mobile">
+        <a id="mobileNavOpen" class="header__link">Menu</a>
+      </li>
+    </ul>
+    <a href="/" class="header__home"><img src="/assets/logo.svg" class="header__logo" alt="Treasure" /></a>
+    <h1 class="header__title">Making your first Jekyll theme: Part 2</h1>
+    
+    
+  </header>
+  <nav class="mobileNav">
+    <header class="header">
+      <ul class="header__items">
+        <li class="header__item header__item--mobile">
+          <a id="mobileNavClose" class="header__link">Close</a>
+        </li>
+      </ul>
+      <ul class="mobileNav__items">
+        
+        <li class="mobileNav__item">
+          <a href="/blog/" class="mobileNav__link">Blog</a>
+        </li>
+        
+        <li class="mobileNav__item">
+          <a href="/gallery/" class="mobileNav__link">Gallery</a>
+        </li>
+        
+        <li class="mobileNav__item">
+          <a href="/plans/" class="mobileNav__link">Plans</a>
+        </li>
+        
+        <li class="mobileNav__item">
+          <a href="https://google.com" class="mobileNav__link">Learn</a>
+        </li>
+        
+        <li class="mobileNav__item">
+          <a href="https://google.com" class="mobileNav__link">Log in</a>
+        </li>
+        
+        <li class="mobileNav__item">
+          <a href="https://manage.siteleaf.com/signup" class="mobileNav__link">Sign up</a>
+        </li>
+      </ul>
+    </header>
+  </nav>
+</div>
+
+      
+
+<article class="article">
+  
+  
+  <section class="article__meta">
+    
+      <ul class="article__tags">
+        
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              <li class="article__tag"><a href="/blog/tags/tutorial/" class="article__tag__link bg--blue">Tutorial</a></li>
+            
+          
+            
+            
+          
+            
+            
+          
+        
+          
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              <li class="article__tag"><a href="/blog/tags/jekyll/" class="article__tag__link bg--red">Jekyll</a></li>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        
+      </ul>
+    
+    
+    <time class="article__date" datetime="2018-01-16T10:10:00-05:00">Jan 16, 2018</time>
+    
+  </section>
+  
+  <section class="article__content">
+    
+
+    
+
+    
+      <p><img src="/uploads/Making%20theme%20part%202.png" alt="" /></p>
+
+<p><em>This is a guest post by <a href="https://darn.es">David Darnes</a>, creator of the <a href="https://alembic.darn.es">Alembic</a> theme.</em></p>
+
+<p>In <a href="https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/">Part 1</a>, I gave an overview of creating themes for Jekyll and a few tips for when you’re developing your own theme. In this second part, I’m going to give a full step-by-step guide to developing your own Jekyll theme gem.</p>
+
+<h2 id="getting-setup">Getting Setup</h2>
+
+<p>Before we get stuck in, you’re going to need a couple of things. It’s good to have at least a basic understanding of Jekyll; the file structure is very similar to making a Jekyll site, as is the development process. Unsurprisingly, you’ll actually need Jekyll as well, which can be installed using Ruby. For Mac users, this will be quite straightforward, as Ruby comes preinstalled. This means you can just use the following command in your command line tool of choice:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll
+</code></pre></div></div>
+
+<p>You can use the following article if you’re trying to <a href="http://jekyllrb.com/docs/windows/">install Jekyll on a Windows machine</a>.</p>
+
+<p>If you’re planning for your user base to use Siteleaf or GitHub Pages, you can install the <a href="https://github.com/github/pages-gem">official GitHub pages-gem</a>, but make a note of the specific gems you’re using, as you’re going to need them later in the development process. You should also install <a href="http://bundler.io/">Bundler</a>, which will help you to manage all the gems you are using in your gem theme.</p>
+
+<p>Finally, create an account on <a href="https://rubygems.org/">RubyGems.org</a> - you’ll need this account later on when you want to submit your theme gem so others can install it easily.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To begin, initialize a new boilerplate theme using this handy command that’s built directly into Jekyll:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll new-theme my-theme
+</code></pre></div></div>
+
+<p>This will build out all the files you’ll need for your theme into a new directory with the same name you chose in the command (in my example, I just put <code class="language-plaintext highlighter-rouge">my-theme</code>).</p>
+
+<p>We need to add some additional information to the theme before we can move on: a summary and a URL that it’s related to. Open the newly generated <code class="language-plaintext highlighter-rouge">.gemspec</code> file (named the same as your theme name) and locate the lines marked <code class="language-plaintext highlighter-rouge">spec.summary</code> and <code class="language-plaintext highlighter-rouge">spec.homepage</code>:</p>
+
+<div class="language-rb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">spec</span><span class="p">.</span><span class="nf">summary</span>       <span class="o">=</span> <span class="sx">%q{A short description of my theme}</span>
+<span class="n">spec</span><span class="p">.</span><span class="nf">homepage</span>      <span class="o">=</span> <span class="s2">"http://website.com"</span>
+</code></pre></div></div>
+
+<p>In my code example above, I’ve added a summary for my theme within the brackets, as well as a homepage that people can reference to get more information about my theme. After we’ve edited and saved these changes, we’ll need to install the gems that our theme depend on.</p>
+
+<p>If you look further down in the <code class="language-plaintext highlighter-rouge">.gemspec</code> file, you’ll see some lines starting with <code class="language-plaintext highlighter-rouge">spec.add_runtime_dependency</code> and <code class="language-plaintext highlighter-rouge">spec.add_development_dependency</code>. These are where we can add the gems our theme needs in order to work, runtime gems for when the theme is being used and development for when the theme is being developed. To install these gems, use the following command:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>To preview your theme and to make sure it’s working as expected, create a new file in the root directory of theme called <code class="language-plaintext highlighter-rouge">index.html</code> with something like the following:</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Home</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="nn">---</span>
+<span class="gh"># Welcome</span>
+</code></pre></div></div>
+
+<p>Adding this file will allow you to build and view your Jekyll theme locally, as if it was a regular Jekyll site. To build and serve, use the following command:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve <span class="nt">--watch</span>
+</code></pre></div></div>
+
+<p><img src="/uploads/Bundle%20command.png" alt="Response you'll see when running the bundle command in you CLI" /></p>
+
+<p>Some of you may have just used <code class="language-plaintext highlighter-rouge">jekyll serve</code> <code class="language-plaintext highlighter-rouge">--</code><code class="language-plaintext highlighter-rouge">watch</code> to run your jekyll site before. The <code class="language-plaintext highlighter-rouge">bundle exec</code> part at the beginning ensures that we use the gems stated in the <code class="language-plaintext highlighter-rouge">Gemfile</code>, which in turn is pointing to the <code class="language-plaintext highlighter-rouge">.gemspec</code> file. This means that we will be using the same gems that we’ll be providing for the user when they come to use your theme.</p>
+
+<h2 id="directory-structure">Directory Structure</h2>
+
+<p><img src="/uploads/Directory%20structure.png" alt="Folder &amp; file structure" /></p>
+
+<p>To provide some context, allow me to run through the files and folders within your newly created theme:</p>
+
+<ul>
+  <li>An <code class="language-plaintext highlighter-rouge">_includes</code> folder, which will be empty until you start adding template partials</li>
+  <li>A <code class="language-plaintext highlighter-rouge">_layouts</code> folder, which will contain a <code class="language-plaintext highlighter-rouge">default.html</code>, <code class="language-plaintext highlighter-rouge">post.html</code> and <code class="language-plaintext highlighter-rouge">page.html</code> template to get started with</li>
+  <li>A <code class="language-plaintext highlighter-rouge">_sass</code> folder, which is also empty and will contain your style partials</li>
+  <li>An <code class="language-plaintext highlighter-rouge">assets</code> folder, also empty. This will contain any static files or at least files that you’ll want to directly link to in the final site, such as graphical assets. This is also where you can place the main <code class="language-plaintext highlighter-rouge">styles.scss</code> file, which will be outputted to <code class="language-plaintext highlighter-rouge">styles.css</code>. You can then directly link to it with ease in your layout files</li>
+  <li>A <code class="language-plaintext highlighter-rouge">Gemfile</code> - this is what Bundler will refer to for gems, but is already set up to point to the <code class="language-plaintext highlighter-rouge">.gemspec</code> file</li>
+  <li>A <code class="language-plaintext highlighter-rouge">theme-name.gemspec</code> file, which is where all gems and other vital information about your theme is stored. Version number, author name and email, theme name and dependant gems are all set here. This is where you can set what files are included in your gem - look for the line marked <code class="language-plaintext highlighter-rouge">spec.files</code> to do so. I wouldn’t recommend editing this, however, as it’s been specifically set to meet a <a href="https://jekyllrb.com/docs/themes/#creating-a-gem-based-theme">standard Jekyll theming convention</a></li>
+  <li>A <code class="language-plaintext highlighter-rouge">LICENSE.txt</code> and <code class="language-plaintext highlighter-rouge">README.md</code> that contains your desired license for your theme and all your theme documentation, respectively. It’s important to document your theme, as mentioned in the <a href="https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/#tips-for-making-a-great-theme">first part of this tutorial</a></li>
+</ul>
+
+<p>So, that’s your entire theme structure - everything else should just be sample content and should be ignored in your <code class="language-plaintext highlighter-rouge">.gitignore</code> file and by your <code class="language-plaintext highlighter-rouge">.gemspec</code> file.</p>
+
+<h2 id="developing-your-theme">Developing your theme</h2>
+
+<p>Hopefully, you’re feeling more comfortable with the codebase, and you can get stuck into developing your Jekyll theme gem. As you’re working on your theme, keep in mind the points from <a href="https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/#tips-for-making-a-great-theme">Part 1 of this tutorial</a>. Make sure to keep note of the gems you’re using in conjunction with your theme and add them to your <code class="language-plaintext highlighter-rouge">.gemspec</code> file. Gems that are built to work alongside Jekyll are actually Jekyll plugins. The Siteleaf team has compiled a handy <a href="https://learn.siteleaf.com/themes/jekyll-plugins/">list of Jekyll plugins that can be used on Siteleaf</a>; additionally, you can use custom third-party gems with the <a href="https://www.siteleaf.com/plans/">Team plan</a>, if you so wish.</p>
+
+<h2 id="adding-sample-content">Adding sample content</h2>
+
+<p><img src="/uploads/Sample%20content.png" alt="Sample content in my theme Alembic" /></p>
+
+<p>Earlier, we added an <code class="language-plaintext highlighter-rouge">index.html</code> file to test our build steps were working how we expected. This can also be used for testing sample content. However, we’re going to need more than a homepage to test the theme properly. Go ahead and add some sample posts in a new <code class="language-plaintext highlighter-rouge">_posts</code> directory. I recommend using actual articles rather than just placeholder text, as you won’t get the real life quirks of peoples’ content from Lorem Ipsum copy and other placeholders. Add images, code samples, and even videos into the content, too. It’s really important to test a variety of content, as you can never really guess what a theme user might add to their site.</p>
+
+<p>Of course, at the core of any Jekyll site content structure is the configuration file (<code class="language-plaintext highlighter-rouge">_config.yml</code>). This is where you can provide a site name, description, and even default page settings. In my Alembic theme, I’ve added an <a href="https://github.com/daviddarnes/alembic/blob/master/_config.yml">example <code class="language-plaintext highlighter-rouge">_config.yml</code> file</a> that people can use as a reference point for using it. If you want to know more about how to configure a Jekyll site with this file, and in turn, prepare your theme for such options, check the <a href="https://jekyllrb.com/docs/configuration/">official Jekyll documentation</a>.</p>
+
+<h2 id="submitting-your-theme-gem">Submitting your theme gem</h2>
+
+<p>Once you’re happy with the first iteration of your theme and you’ve pushed all your work to your repository, you can then build your first <code class="language-plaintext highlighter-rouge">.gem</code> file. A <code class="language-plaintext highlighter-rouge">.gem</code> file is your entire theme: that’s all the templating code and other working files compiled into one file. This is the file we will be pushing up to <a href="https://rubygems.org">RubyGems.org</a>.</p>
+
+<p>To build your gem, use the following command in your command line tool:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem build my-theme.gemspec
+</code></pre></div></div>
+
+<p>Once you’ve done this, a new file will appear in the root of your project - something along the lines of <code class="language-plaintext highlighter-rouge">my-theme-0.1.0.gem</code>. The file name is comprised of your theme name and the current version in your <code class="language-plaintext highlighter-rouge">.gemspec</code> file. Next, we need to push, and therefore publish, the gem. Use the following command to do so:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem push my-theme-0.1.0.gem
+</code></pre></div></div>
+
+<p>When you submit a gem for the first time, your command line tool will ask you to provide your RubyGems.org login details. Once you’ve signed in, your gem will be pushed up and published! And with that, your first Jekyll theme gem has been created. You’ll then have a page on RubyGems.org, <a href="https://rubygems.org/gems/alembic-jekyll-theme">similar to my theme page</a>.</p>
+
+<p><img src="/uploads/Sample%20rubygems%20page.png" alt="Sample RubyGems page" /></p>
+
+<h2 id="github-pages-remote-themes">GitHub Pages remote themes</h2>
+
+<p>Since releasing <a href="https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/">Part 1</a>, GitHub have implemented a new feature to GitHub Pages that allows anyone to use any Jekyll theme uploaded to <a href="https://github.com">github.com</a> without the need of any local build or deployment steps.</p>
+
+<p>Installing a theme requires the use of a newly whitelisted gem called <a href="https://github.com/benbalter/jekyll-remote-theme">jekyll-remote-theme</a>. You add it to your Jekyll site just like any other gem plugin. After installing it, you can use the key <code class="language-plaintext highlighter-rouge">remote_theme</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code>, followed by the username of the theme creator and the name of the theme separated by a / - for example:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">jekyll-remote-theme</span>
+    
+<span class="na">remote_theme</span><span class="pi">:</span> <span class="s">daviddarnes/alembic</span>
+</code></pre></div></div>
+
+<p>So, how does this affect our theme development process? Well, you’ll need to consider if someone will be using your theme in this fashion if you upload it to <a href="https://github.com">GitHub</a>. You should also make sure the plugins in your theme are also whitelisted on GitHub Pages. Most importantly, you’ll need to factor in any changes that could break other peoples’ sites.</p>
+
+<p>The remote theme plugin can hook into repo releases as well as branches. Using releases is a great way to manage versions of your theme and it’s ideal to help people lock down the version of your theme that they want to use:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">daviddarnes/alembic@2.3.1</span>
+</code></pre></div></div>
+
+<h2 id="testing-and-releasing-updates">Testing and releasing updates</h2>
+
+<p>After your theme is live, you’ll need to do a couple of things to ensure your theme is doing the job you intended it to. The first thing to do is to test the theme, so try to install and use it <a href="https://jekyllrb.com/docs/themes/#installing-a-theme">like any other Jekyll theme</a>. Take note of any hiccups you find or anything that the theme user may find difficult to grasp and implement.</p>
+
+<p>If you need to make updates or fixes, you’ll want to <a href="http://guides.rubygems.org/patterns/#semantic-versioning">increment the version appropriately</a> of the theme in the <code class="language-plaintext highlighter-rouge">.gemspec</code>, produce another build and push the <code class="language-plaintext highlighter-rouge">.gem</code> file matching that version number to RubyGems.org.</p>
+
+<p>Feel free to <a href="https://twitter.com/DavidDarnes">tweet me with any questions</a> you have on what I’ve talked about. You can also chat with the <a href="https://community.siteleaf.com">Siteleaf community</a> for further questions and to share your development work.</p>
+
+    
+    
+  </section>
+</article>
+
+
+
+    </div>
+    <div class="footerWrap">
+  <footer class="footer">
+    <ul class="footer__items">
+      
+      <li class="footer__item">
+        <a href="/features/" class="footer__link">Features</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="https://google.com" class="footer__link">Press</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="/privacy/" class="footer__link">Privacy</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="/terms/" class="footer__link">Terms</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="/gdpr/" class="footer__link">GDPR</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="https://google.com" class="footer__link">Status</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="https://google.com" class="footer__link">Community</a>
+      </li>
+      
+      <li class="footer__item">
+        <a href="https://twitter.com/" class="footer__link">Twitter</a>
+      </li>
+      
+    </ul>
+    <span class="footer__madeBy"><a href="https://github.com/siteleaf/siteleaf.com">Made in Siteleaf</a> by <a href="https://oak.is/">Oak</a></span>
+  </footer>
+</div>
+
+    
+    <script src="/scripts/all.js"></script>
+    <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script><script>window.Beacon('init', '13d71c30-bf3c-49d8-a515-60646ded4459')</script>
+
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='6def54'></script>
+
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://a.siteleaf.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+  </body>
+</html>
