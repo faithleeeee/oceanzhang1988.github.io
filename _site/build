@@ -1,0 +1,4 @@
+rm -rf docs/
+jekyll build
+mv _site docs
+rm docs/build

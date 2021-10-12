@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Treasure",
+    "home_page_url": "https://www.google.com/",
+    "feed_url": "https://www.google.com/feed.json",
+    "description": "Treasure is a utility app offering a digital collection service that helps content creators digitalize, manage, and share highlight moments with their fans.",
+    "icon": "https://www.google.com/assets/avatar.png",
+    "favicon": "https://www.google.com/assets/favicon.ico",
+    "expired": false,
+    "items": [
+    
+        {
+            "id": "https://www.google.com/blog/join-us-on-github-discussions/",
+            "title": "Join us on GitHub Discussions",
+            "content_text": "The Treasure Community now has a new home on GitHub Discussions where you can get help, vote on new features, and share what you’re working on!To get started we created topics for:      ❓ Community Support: Ask the community for help.        💡 Feature Requests: Vote and share ideas for new features.        🙌 Show &amp; Tell: Show off something you’ve made.        💬 General Discussion: Everything else.  GitHub Discussions will replace our existing Slack community, and we look forward to building a more open, accessible, and searchable archive for questions that pop up often.We also hope to offer a greater level of transparency by opening up our roadmap and allowing the community to vote on new features.Most helpfulWe’ll be rewarding the most helpful community members with exclusive perks:GitHub will automatically recognize community members who contribute the most comments marked as answers within the past 30 days in the Community Support section. If you see your name in the leaderboard, we’ll be in touch to give you some exclusive perks as a thank you.Join us at: https://community.google.com →",
+            "content_html": "<p>The <a href=\"https://google.com\">Treasure Community</a> now has a new home on GitHub Discussions where you can get help, vote on new features, and share what you’re working on!</p><p>To get started we created topics for:</p><ul>  <li>    <p>❓ <a href=\"https://github.com/siteleaf/community/discussions/categories/community-support\">Community Support</a>: Ask the community for help.</p>  </li>  <li>    <p>💡 <a href=\"https://github.com/siteleaf/community/discussions/categories/feature-requests\">Feature Requests</a>: Vote and share ideas for new features.</p>  </li>  <li>    <p>🙌 <a href=\"https://github.com/siteleaf/community/discussions/categories/show-tell\">Show &amp; Tell</a>: Show off something you’ve made.</p>  </li>  <li>    <p>💬 <a href=\"https://github.com/siteleaf/community/discussions/categories/general-discussion\">General Discussion</a>: Everything else.</p>  </li></ul><p>GitHub Discussions will replace our existing Slack community, and we look forward to building a more open, accessible, and searchable archive for questions that pop up often.</p><p>We also hope to offer a greater level of transparency by opening up our roadmap and allowing the community to <a href=\"https://github.com/siteleaf/community/discussions/categories/feature-requests\">vote on new features</a>.</p><h3 id=\"most-helpful\">Most helpful</h3><p>We’ll be rewarding the most helpful community members with exclusive perks:</p><p><img src=\"/uploads/github-discussions-most-helpful.png\" alt=\"Screenshot of GitHub Discussions showing most helpful community members\" /></p><p>GitHub will automatically recognize community members who contribute the most comments marked as answers within the past 30 days in the Community Support section. If you see your name in the leaderboard, we’ll be in touch to give you some exclusive perks as a thank you.</p><p>Join us at: <strong><a href=\"https://community.google.com\">https://community.google.com</a></strong> →</p>",
+            "url": "https://www.google.com/blog/join-us-on-github-discussions/",
+            
+            "tags": ["community","announcement"],
+            "date_published": "2021-03-09T14:07:00-05:00",
+            "date_modified": "2021-03-09T14:07:00-05:00"
+        }
+    
+    ]
+}

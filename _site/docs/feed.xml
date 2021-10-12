@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Treasure</title>
+    <description>Treasure is a utility app offering a digital collection service that helps content creators digitalize, manage, and share highlight moments with their fans.</description>
+    <link>https://www.google.com/</link>
+    <atom:link href="https://www.google.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Sep 2021 00:18:08 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Sep 2021 00:18:08 -0400</lastBuildDate>
+    <generator>Siteleaf</generator>
+    
+      <item>
+        <title>Join us on GitHub Discussions</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://google.com&quot;&gt;Treasure Community&lt;/a&gt; now has a new home on GitHub Discussions where you can get help, vote on new features, and share what you’re working on!&lt;/p&gt;
+
+&lt;p&gt;To get started we created topics for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;❓ &lt;a href=&quot;https://github.com/siteleaf/community/discussions/categories/community-support&quot;&gt;Community Support&lt;/a&gt;: Ask the community for help.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💡 &lt;a href=&quot;https://github.com/siteleaf/community/discussions/categories/feature-requests&quot;&gt;Feature Requests&lt;/a&gt;: Vote and share ideas for new features.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;🙌 &lt;a href=&quot;https://github.com/siteleaf/community/discussions/categories/show-tell&quot;&gt;Show &amp;amp; Tell&lt;/a&gt;: Show off something you’ve made.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;💬 &lt;a href=&quot;https://github.com/siteleaf/community/discussions/categories/general-discussion&quot;&gt;General Discussion&lt;/a&gt;: Everything else.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GitHub Discussions will replace our existing Slack community, and we look forward to building a more open, accessible, and searchable archive for questions that pop up often.&lt;/p&gt;
+
+&lt;p&gt;We also hope to offer a greater level of transparency by opening up our roadmap and allowing the community to &lt;a href=&quot;https://github.com/siteleaf/community/discussions/categories/feature-requests&quot;&gt;vote on new features&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;most-helpful&quot;&gt;Most helpful&lt;/h3&gt;
+
+&lt;p&gt;We’ll be rewarding the most helpful community members with exclusive perks:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.google.com/uploads/github-discussions-most-helpful.png&quot; alt=&quot;Screenshot of GitHub Discussions showing most helpful community members&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GitHub will automatically recognize community members who contribute the most comments marked as answers within the past 30 days in the Community Support section. If you see your name in the leaderboard, we’ll be in touch to give you some exclusive perks as a thank you.&lt;/p&gt;
+
+&lt;p&gt;Join us at: &lt;strong&gt;&lt;a href=&quot;https://community.google.com&quot;&gt;https://community.google.com&lt;/a&gt;&lt;/strong&gt; →&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Mar 2021 14:07:00 -0500</pubDate>
+        <link>https://www.google.com/blog/join-us-on-github-discussions/</link>
+        <guid isPermaLink="true">https://www.google.com/blog/join-us-on-github-discussions/</guid>
+        
+        <category>community</category>
+        
+        <category>announcement</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
